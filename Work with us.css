@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+}
+header{
+    background-color: #009FE3;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index:1 ;
+}
+nav{
+    width: 900px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    text-align: right;
+}
+ul{
+    color: white;
+    margin-top: 29px;
+    font-size: 20px;
+    display: inline-block;
+}
+main{
+    width: 900px;
+    margin: 150px auto;
+    height: 600px;
+}
+footer{
+    background-color: rgb(145, 153, 161);
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+
+}
+.footer{
+    width: 900px;
+    margin: 0 auto;
+    height: 200px;
+}
+.footer img{
+    height: 20px;
+    margin-top: 130px;
+    margin-right: 10px ;
+}
+h5{
+    color: white;
+    text-align: right;
+    position: relative;
+    bottom: 20px;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.Intro{
+    text-align: center;
+}
+h2{
+    color:  #009FE3;
+    font-size: 40px;
+
+}
+h3{
+    color:  #009FE3;
+    font-size: 25px;
+}
+.Form{
+    height: 275;
+    width: 100%;
+    background-color: rgba(0, 159, 227, 0.07);
+    position: relative;
+    bottom: 500px;
+}
+.Form-body{
+    width: 900px;
+    margin: auto;
+    padding: 50px 0px;
+}
+.Form-body p{
+    width: 400px;
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative;
+    top: 10px;
+}
+.Container{
+    height: 1300px;
+}
+.logo{
+    width: 275px;
+}
+.logo-container{
+    float: left;
+    position: relative;
+    bottom: 9px;
+}
+.Contact-details{
+    float: right;
+    position: relative;
+    bottom: 215px;
+    text-decoration: none;
+
+}
+.push{
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

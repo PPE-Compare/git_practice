@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background-color: #009FE3;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index:1 ;
+}
+nav{
+    width: 900px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    text-align: right;
+}
+ul{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    display: inline-block;
+}
+main{
+    width: 900px;
+    margin: 150px auto;
+}
+.Categories{
+    width: 400px;
+}
+
+.Categories img{
+    height: 125px;
+    width: 125px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.Intro{
+    width: 390px;
+    position: relative;
+    float: right;
+    bottom: 415px;
+}
+h1{
+    color: #009FE3;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 72px;
+}
+.Intro-para{
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.banner{
+    background-color: rgba(0, 159, 227, 0.07);
+    height: 275px;
+    width: 100%;
+
+}
+.banner-body{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    clear: both;
+    position: relative;
+    bottom: 200px;
+    line-height: 1.5;
+}
+h2{
+    color:  #009FE3;
+    font-size: 40px;
+
+}
+footer{
+    background-color: rgb(145, 153, 161);
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+.footer{
+    width: 900px;
+    margin: 0 auto;
+    height: 200px;
+}
+.footer img{
+    height: 20px;
+    margin-top: 130px;
+    margin-right: 10px ;
+}
+h5{
+    color: white;
+    text-align: right;
+    position: relative;
+    bottom: 20px;
+}
+p{
+    font-size: 18px;
+}
+.logo{
+    width: 275px;
+}
+.logo-container{
+    float: left;
+    position: relative;
+    bottom: 10px;
+}
