@@ -118,3 +118,86 @@ p{
     position: relative;
     bottom: 10px;
 }
+@media only screen and (max-width: 480px){
+    main{
+        width: 290px;
+        margin: 120px auto;
+        height: 450px;
+    }
+    .Categories img{
+        height: 90px;
+        width: 90px;
+        margin-right: 3px;
+        margin-bottom: 3px;
+    }
+    nav{
+        width: 290px;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .Intro{
+        width: 290px;
+        position: relative;
+        float: right;
+        bottom: 300px;
+        text-align: center;
+    }
+    .footer{
+        width: 290px;
+    }
+    .banner-body{
+        width: 290px;
+        top: 40px;
+    }
+    .Categories{
+        width: 290px;
+        position: relative;
+        top: 250px;
+    }
+    .Intro-para{
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .banner{
+        position: relative;
+        top: 0px;
+    }
+    .logo{
+    width: 150px;
+}
+.logo-container{
+    float: left;
+    position: relative;
+    bottom: 0px;
+}ul{
+    font-size: 18px;
+}
+p{
+    font-size: 15px;
+}
+h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+h5{
+    width: 290px;
+    font-size: 13.4px;
+    font-weight: 400;
+    position: relative;
+    bottom: 0px;
+}
+.footer img{
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 0px;
+    position: relative;
+    margin-bottom: 0px;
+    bottom: 30px;
+    left: 55px;
+}
+}
