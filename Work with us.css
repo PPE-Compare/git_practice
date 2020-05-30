@@ -122,3 +122,88 @@ a{
     text-decoration: none;
     color: black;
 }
+@media only screen and (max-width: 480px){
+    main{
+        width: 290px;
+        margin: 120px auto;
+        height: 130px;
+    }
+    nav{
+        width: 290px;
+        margin: 0 auto;
+    }
+    h5{
+        width: 290px;
+        font-size: 13.4px;
+        font-weight: 400;
+        position: relative;
+        bottom: 0px;
+    }
+    .footer img{
+        height: 25px;
+        margin-right: 20px;
+        margin-left: 0px;
+        position: relative;
+        margin-bottom: 0px;
+        bottom: 30px;
+        left: 55px;
+    }
+    .logo{
+        width: 150px;
+    }
+    .logo-container{
+        float: left;
+        position: relative;
+        bottom: 0px;
+    }ul{
+        font-size: 18px;
+    }
+    .footer{
+        width: 290px;
+    }
+    .Form-body{
+        width: 290px;
+        position: relative;
+        top: 0px;
+    }
+    .Form-body p{
+        width: 290px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size:15px;
+        line-height: 20px;
+        width: 290px;
+        text-align: center;
+    }
+    .Form{
+        position: relative;
+        top: 100px;
+    }
+    h3{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .Container{
+        height: 0px;
+    }
+    footer{
+        position: relative;
+        bottom: 0px;
+        top: 250px;
+    }
+    .push{
+        height: 0px;
+    }
+    .Contact-details{
+        float: right;
+        position: relative;
+        bottom: 0px;
+        top: 80px;
+        text-decoration: none;
+    
+    }
+}
